@@ -1,0 +1,20 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/gorkem/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages",
+        "/home/gorkem/ros2_ws/build/launch_testing_examples",
+        "/home/gorkem/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages",
+        "/home/gorkem/ros2_ws/build/my_robot_controller",
+        "/home/gorkem/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/home/gorkem/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages",
+        "/home/gorkem/ros2_ws/build/launch_testing_examples",
+        "/home/gorkem/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages",
+        "/home/gorkem/ros2_ws/build/my_robot_controller",
+        "/home/gorkem/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
