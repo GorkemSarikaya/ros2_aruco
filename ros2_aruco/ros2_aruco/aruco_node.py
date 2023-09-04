@@ -153,6 +153,7 @@ class ArucoNode(rclpy.node.Node):
         self.aruco_refine_parameters = cv2.aruco.RefineParameters()
         self.detector = cv2.aruco.ArucoDetector(self.aruco_dictionary, self.aruco_parameters, self.aruco_refine_parameters)
         #end edit
+        bfbf
         self.bridge = CvBridge()
 
     def info_callback(self, info_msg):
