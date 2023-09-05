@@ -147,7 +147,6 @@ class ArucoNode(rclpy.node.Node):
 
         
         #edit
-        err
         self.aruco_dictionary = cv2.aruco.getPredefinedDictionary(dictionary_id)
         #self.aruco_dictionary = cv2.aruco.Dictionary_get(dictionary_id)
         self.aruco_parameters = cv2.aruco.DetectorParameters()
@@ -186,7 +185,6 @@ class ArucoNode(rclpy.node.Node):
         #corners, marker_ids, rejected = cv2.aruco.detectMarkers(
         #   cv_image, self.aruco_dictionary, parameters=self.aruco_parameters
         #)
-        zzzz
         corners, marker_ids, rejected = self.detector.detectMarkers(cv_image)
         #end edit
 
