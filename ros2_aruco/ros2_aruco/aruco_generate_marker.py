@@ -37,7 +37,11 @@ def main():
     dictionary = cv2.aruco.getPredefinedDictionary(dictionary_id)
     #end edit
     image = np.zeros((args.size, args.size), dtype=np.uint8)
-    image = cv2.aruco.drawMarker(dictionary, args.id, args.size, image, 1)
+    
+    #edit
+    image = cv2.aruco.generateImageMarker(dictionary, args.id, args.size, image, 1)
+    #image = cv2.aruco.drawMarker(dictionary, args.id, args.size, image, 1)
+    #end edit
     cv2.imwrite("marker_{:04d}.png".format(args.id), image)
 
 
