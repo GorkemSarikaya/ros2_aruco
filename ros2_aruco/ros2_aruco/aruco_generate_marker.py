@@ -41,7 +41,7 @@ def main():
     #edit
     image = cv2.aruco.generateImageMarker(dictionary, args.id, args.size, image, 1)
     #image = cv2.aruco.drawMarker(dictionary, args.id, args.size, image, 1)
-    #end edit
+    #end edit vv
     cv2.imwrite("marker_{:04d}.png".format(args.id), image)
 
 
